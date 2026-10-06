@@ -8,6 +8,11 @@ const navItems = [
     url: "/#experiencia",
   },
   {
+    title: "Estudios",
+    label: "estudios",
+    url: "/#estudios",
+  },
+  {
     title: "Proyectos",
     label: "proyectos",
     url: "/#proyectos",
@@ -17,11 +22,11 @@ const navItems = [
     label: "sobre-mi",
     url: "/#sobre-mi",
   },
-  {
-    title: "Contacto",
-    label: "contacto",
-    url: "mailto:miduga@gmail.com",
-  },
+  // {
+  //   title: "Contacto",
+  //   label: "contacto",
+  //   url: "mailto:miduga@gmail.com",
+  // },
 ]
 ---
 
@@ -34,7 +39,7 @@ const navItems = [
     {
       navItems.map((link) => (
         <a
-          class="nav-link relative text-xs sm:text-sm block px-1.5 sm:px-3 py-2 sm:py-1.5 rounded-full transition-colors duration-200 hover:text-yellow-500 dark:hover:text-yellow-400"
+          class="nav-link relative text-xs sm:text-sm block px-1.5 sm:px-3 py-2 sm:py-1.5 rounded-full transition-colors duration-200 hover:text-gray-400 dark:hover:text-white dark:hover:bg-[#0C3B45]"
           aria-label={link.label}
           href={link.url}
         >

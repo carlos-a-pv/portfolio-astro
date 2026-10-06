@@ -1,5 +1,5 @@
 ---
-const personalImageAlt = "Miguel Ángel"
+const personalImageAlt = "Carlos Perez Verano"
 import Badge from "@/components/Badge.astro"
 import GitHubIcon from "@/components/icons/GitHub.astro"
 import LinkedInIcon from "@/components/icons/LinkedIn.astro"
@@ -18,8 +18,8 @@ import SocialPill from "@/components/SocialPill.astro"
       >
       </div>
       <img
-        class="relative rounded-full shadow-2xl size-20 ring-2 ring-yellow-400/60 ring-offset-2 ring-offset-gray-50 dark:ring-offset-gray-950"
-        src="/midudev.webp"
+        class="relative size-20 rounded-full shadow-2xl ring-2 ring-offset-2 ring-offset-gray-50 dark:ring-offset-gray-950"
+        src="/me.webp"
         alt={personalImageAlt}
       />
     </div>
@@ -36,31 +36,30 @@ import SocialPill from "@/components/SocialPill.astro"
   <h1
     class="anim-fade-in anim-delay-1 text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white"
   >
-    Hey, soy <span class="gradient-name">midudev</span>
+    Hey, soy <span class="gradient-name">Carlos Perez</span>
   </h1>
 
   <p
-    class="anim-fade-in anim-delay-2 mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"
+    class="anim-fade-in anim-delay-2 mt-6 text-xl text-gray-800 dark:[&>strong]:text-[#3E9B94] [&>strong]:text-[#3E9B94] [&>strong]:font-semibold dark:text-gray-300"
   >
-    +15 años de experiencia. <strong
-      >Ingeniero de Software y Creador de Contenido sobre Programación</strong
-    > de Barcelona, España 🇪🇸. Especializado en el desarrollo de aplicaciones web
-    únicas.
+    Esutidante de último semestre de Ingeniería en Ciencias de la Computación, especializado en el 
+    <strong>desarrollo backend, con +2 años de experiencia en proyectos Java/Spring Boot</strong> aplicando principios SOLID/Clean code y metodologías DDD, BDD y TDD.
+
   </p>
 
   <nav
     class="anim-fade-in anim-delay-3 flex flex-wrap gap-4 mt-8"
     aria-label="Redes sociales y contacto"
   >
-    <SocialPill href="mailto:miduga@gmail.com">
+    <SocialPill href="mailto:carlospverano@gmail.com">
       <MailIcon class="size-4" />
       Contáctame
     </SocialPill>
-    <SocialPill href="https://linkedin.com/in/midudev">
+    <SocialPill href="https://www.linkedin.com/in/carlos-perez-71b7b1184/">
       <LinkedInIcon class="size-4" />
       LinkedIn
     </SocialPill>
-    <SocialPill href="https://github.com/midudev">
+    <SocialPill href="https://github.com/carlos-a-pv">
       <GitHubIcon class="size-4" />
       GitHub
     </SocialPill>
